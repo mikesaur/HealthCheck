@@ -1,0 +1,15 @@
+hostname,ip,username,password,protocol,os
+PE-12,10.80.0.12,admin,fake_password,ssh,iosxr
+540-01,10.80.0.131,admin,fake_password,ssh,iosxr
+540-02,10.80.0.132,admin,fake_password,ssh,iosxr
+BGP-01,10.80.0.111,admin,fake_password,ssh,iosxr
+BGP-02,10.80.0.110,admin,fake_password,ssh,iosxr
+P-01,10.80.0.112,admin,fake_password,ssh,iosxr
+P-02,10.80.0.113,admin,fake_password,ssh,iosxr
+PE-11,10.80.0.11,admin,fake_password,ssh,iosxr
+PE-21,10.80.0.21,admin,fake_password,ssh,iosxr
+PE-22,10.80.0.22,admin,fake_password,ssh,iosxr
+PE-31,10.80.0.31,admin,fake_password,ssh,iosxr
+PE-32,10.80.0.32,admin,fake_password,ssh,iosxr
+PE-41,10.80.0.41,admin,fake_password,ssh,iosxr
+PE-42,10.80.0.42,admin,fake_password,ssh,iosxr
