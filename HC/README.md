@@ -1,1 +1,0 @@
-See internal Confluence for use of this repository.
