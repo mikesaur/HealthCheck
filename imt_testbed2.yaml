@@ -1,0 +1,30 @@
+# This testbed is an example of how passwords can be obfuscated (hidden) in the testbed file.
+# This is created with the pyats create command.  Confluence will have documentation on generating your own testbed file from a csv.
+
+devices:
+  PE-11:
+    connections:
+      cli:
+        ip: 10.80.0.11
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5PDnMKSw6DCs8OB}'
+        username: admin
+      enable:
+        password: '%ENC{w5PDnMKSw6DCs8OB}'
+    os: iosxr
+    type: iosxr
+  PE-21:
+    connections:
+      cli:
+        ip: 10.80.0.21
+        protocol: ssh
+    credentials:
+      default:
+        password: '%ENC{w5PDnMKSw6DCs8OB}'
+        username: admin
+      enable:
+        password: '%ENC{w5PDnMKSw6DCs8OB}'
+    os: iosxr
+    type: iosxr
